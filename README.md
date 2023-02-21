@@ -20,7 +20,7 @@ Unity-fNIRS is designed to be easy to use and highly customizable. By default, t
 # Contributing
 Contributions to Unity-fNIRS are welcome and encouraged! If you have an idea for a new feature or find a bug, please open an issue or submit a pull request.
 
-# citation
+# Citation
 The original motivation of this project is for creating a fNIRS-informed walking simulator game.
 
 ```
