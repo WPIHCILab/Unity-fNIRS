@@ -1,12 +1,11 @@
 # Unity-fNIRS
-Unity-fNIRS is a Unity project that receives processed fNIRS data from Turbo Satori via TCP. This project is designed for researchers and developers who want to use Unity as a platform for visualizing and analyzing fNIRS data in real-time.
 
-# Features
+## Features
 - TCP client that receives processed fNIRS data from Turbo Satori
 - Real-time visualization of fNIRS data using Unity's built-in graphics tools
 - Data logging and export functionality for offline analysis
 
-# Getting Started
+## Getting Started
 To get started with Unity-fNIRS, you will need:
 - Unity 2019.4 or later
 - [Turbo Satori](https://nirx.net/turbosatori) with valid license 
@@ -14,13 +13,13 @@ To get started with Unity-fNIRS, you will need:
 
 Once you have these components, you can clone this repository and open the Unity project. From there, you can run the project and start receiving fNIRS data from Turbo Satori.
 
-# Usage
+## Usage
 Unity-fNIRS is designed to be easy to use and highly customizable. By default, the project will receive processed fNIRS data from selected channels. You can modify the data retrieving function and visualization to suit your needs. 
 
-# Contributing
+## Contributing
 Contributions to Unity-fNIRS are welcome and encouraged! If you have an idea for a new feature or find a bug, please open an issue or submit a pull request.
 
-# Citation
+## Citation
 The original motivation of this project is for creating a fNIRS-informed walking simulator game.
 
 ```
@@ -36,5 +35,5 @@ The original motivation of this project is for creating a fNIRS-informed walking
 }
 ```
 
-# Acknowledgement
+## Acknowledgement
 [Turbo Satori: Matlab Network Interface](https://support.brainvoyager.com/turbo-satori/getting-started/393-matlab-network-interface)
