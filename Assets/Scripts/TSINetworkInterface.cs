@@ -54,10 +54,10 @@ namespace TSI2Unity
 
         private void Start()
         {
+            ipAddress = "192.168.0.100";
             DontDestroyOnLoad(this);
             //SEND Request --- Connect to Request Socket
             OnClientStarted = delegate () { SendMessageToServer("Request Socket"); };
-            OnMessageReceived = delegate () { PrintMessageLog(); };
             OnMessageReceived = delegate () { UpdateTSIValues(); };
             StartClient();
             InvokeRepeating("FetchTSI", 1,1f);
@@ -120,7 +120,7 @@ namespace TSI2Unity
             //Start Async Reading from Server and manage the response on MessageReceived function
             do
             {
-                ClientLog("Client is listening server msg...", Color.yellow);
+               // ClientLog("Client is listening server msg...", Color.yellow);
                 //Start Async Reading from Server and manage the response on MessageReceived function
                 m_NetStream.BeginRead(m_Buffer, 0, m_Buffer.Length, MessageReceived, null);
                 if (m_BytesReceived > HEADER_MSG_SIZE)
